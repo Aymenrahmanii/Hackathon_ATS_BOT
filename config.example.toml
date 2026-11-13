@@ -1,0 +1,18 @@
+# Copy to config.toml and edit. These values match the local mock server.
+base_url = "http://127.0.0.1:8000"
+margin_ms = 250          # safety added to every throttle wait; calibrate in the warm-up
+# "off", "idle" (attack only when there is nothing to claim) or "always"
+# (also attack scoring teams near us in the standings while claiming)
+attack_mode = "always"
+solvers_dir = "solvers"
+data_dir = "data"        # logs, samples and failures are written here
+
+[players.a]
+email = "alice@mock.test"
+password = "alice"
+slot = 0                 # claims nuggets whose id ends in an even hex digit
+
+[players.b]
+email = "bob@mock.test"
+password = "bob"
+slot = 1                 # claims the odd ones

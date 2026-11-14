@@ -1,0 +1,42 @@
+solver reverseWord: loaded (on probation)
+NEW TYPE reverseWord x1 -> samples/reverseWord.jsonl
+   reverseWord: 'What is "radar" spelled backwards?'
+NEW TYPE addNumbers x2 -> samples/addNumbers.jsonl
+   addNumbers: 'What is 86 + 566?'
+NEW TYPE countVowels x3 -> samples/countVowels.jsonl
+   countVowels: 'How many vowels are in "kayak throttle level"?'
+20:47:09 discover all -> 100 nuggets, kept 44 | score 0 thr 3000 atk 0 pool 44
+20:47:12 attack Rival1y -> 200 Attack successful! ⚔️ Target's throttle increased. | score 0 thr 3000 atk 0 pool 44
+20:47:15 attack Rival2x -> 200 Attack successful! ⚔️ Target's throttle increased. | score 0 thr 3000 atk 0 pool 44
+20:47:18 attack Rival2y -> 200 Attack successful! ⚔️ Target's throttle increased. | score 0 thr 3000 atk 0 pool 44
+20:47:21 attack Rival1x -> 200 Attack successful! ⚔️ Target's throttle increased. | score 0 thr 3000 atk 0 pool 44
+20:47:24 claim reverseWord x1 -> 200 Nugget claimed successfully | score 1 thr 3000 atk 0 pool 43
+20:47:28 claim reverseWord x1 -> 200 Nugget claimed successfully | score 2 thr 3000 atk 0 pool 42
+20:47:31 claim reverseWord x1 -> 200 Nugget claimed successfully | score 3 thr 3000 atk 0 pool 41
+20:47:34 claim reverseWord x1 -> 200 Nugget claimed successfully | score 4 thr 3000 atk 0 pool 40
+$ # teammate saves solvers/countVowels.py while the bot runs
+solver countVowels: loaded (on probation)
+20:47:37 claim countVowels x3 -> 200 Nugget claimed successfully | score 7 thr 3000 atk 0 pool 39
+20:47:40 claim countVowels x3 -> 200 Nugget claimed successfully | score 10 thr 3000 atk 0 pool 38
+20:47:43 claim countVowels x3 -> 200 Nugget claimed successfully | score 13 thr 3000 atk 0 pool 37
+20:47:46 claim countVowels x3 -> 200 Nugget claimed successfully | score 16 thr 3000 atk 0 pool 36
+20:47:50 claim countVowels x3 -> 200 Nugget claimed successfully | score 19 thr 3000 atk 0 pool 35
+20:47:54 defend Rival1x -> 200 Defense successful! 🛡️ Nice recovery 👌 | score 19 thr 4000 atk 1 pool 35
+20:47:58 claim countVowels x3 -> 200 Nugget claimed successfully | score 22 thr 3000 atk 0 pool 34
+20:48:01 discover countVowels -> 100 nuggets, kept 50 | score 22 thr 3000 atk 0 pool 50
+20:48:04 claim countVowels x3 -> 200 Nugget claimed successfully | score 25 thr 3000 atk 0 pool 49
+20:48:10 burst -> 200 Burst mode activated! 🔥 All attacks revoked, throttle reset to 3000ms. | score 25 thr 6000 atk 3 pool 49
+20:48:16 claim countVowels x3 -> 200 Nugget claimed successfully | score 25 thr 3000 atk 0 pool 48
+20:48:19 claim countVowels x3 -> 200 Nugget claimed successfully | score 28 thr 3000 atk 0 pool 47
+20:48:22 claim countVowels x3 -> 200 Nugget claimed successfully | score 31 thr 3000 atk 0 pool 46
+20:48:26 claim countVowels x3 -> 200 Nugget claimed successfully | score 34 thr 3000 atk 0 pool 45
+20:48:29 claim countVowels x3 -> 200 Nugget claimed successfully | score 37 thr 3000 atk 0 pool 44
+$ # organisers start round 2
+20:48:32 ROUND CHANGE? (Nugget not found) -> rescanning | score 37 thr 3000 atk 0 pool 0
+NEW TYPE maxNumber x2 -> samples/maxNumber.jsonl
+   maxNumber: 'What is the largest number in [461, 177, -16, 408, 395, 496, 480, 163]?'
+NEW TYPE isPalindrome x3 -> samples/isPalindrome.jsonl
+   isPalindrome: 'Is "trouble" a palindrome? Answer true or false.'
+NEW TYPE upperCase x1 -> samples/upperCase.jsonl
+   upperCase: 'Write "burst python" in uppercase.'
+20:48:35 discover all -> 100 nuggets, kept 53 | score 37 thr 3000 atk 0 pool 53

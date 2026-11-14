@@ -179,7 +179,7 @@ class Bot:
             reply = self.gate.send(lambda: self.api.attack(move.target))
             self.world.attacked(move.target, reply)
         who = f" for {self._name(move.mate)}" if move.mate else ""
-        what = f"{move.kind} {self._name(move.target)}{who}".replace("  ", " ")
+        what = f"{move.kind} {self._name(move.target)}{who}".strip()
         self._say(f"{what} -> {reply.status} {reply.message}")
 
     def _name(self, user_id: str | None) -> str:
